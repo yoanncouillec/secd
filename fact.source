@@ -1,0 +1,3 @@
+letrec fact = fun n -> n * (fact (n - 1)) in
+fact 5
+

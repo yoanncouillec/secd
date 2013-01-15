@@ -1,0 +1,3 @@
+let h = fun x -> x in
+let g = fun x -> h x in
+g 1
